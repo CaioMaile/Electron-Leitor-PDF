@@ -1,0 +1,45 @@
+* {
+    font-family: "Verdana", sans-serif;
+    font-size: 16pt;
+}
+
+body {
+    background: #323639;
+    color: #fff;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+div.barra-janela{
+    align-items: center;
+    background: #5c7487;
+    display: flex;
+    height: 42px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+div.barra-janela button {
+    background: #5c7487;
+    border: none;
+    height: 42px;
+    width: 42px; 
+}
+
+iframe {
+    border: none;
+}
+
+div.principal-janela {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px;
+}
+    
+div.principal-janela img {
+    height: 96px;
+    width: 96px;
+}
