@@ -31,7 +31,7 @@ iframe {
     border: none;
 }
 
-div.principal-janela {
+div.principalJanela {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,7 +39,7 @@ div.principal-janela {
     margin: 32px;
 }
     
-div.principal-janela img {
+div.principalJanela img {
     height: 96px;
     width: 96px;
 }

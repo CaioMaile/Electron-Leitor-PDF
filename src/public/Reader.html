@@ -12,7 +12,20 @@
         <button onclick="window.electron.Fechar()">🔴</button>
         <button onclick="window.electron.Maximizar()">🟡</button>
         <button onclick="window.electron.Minimizar()">🟢</button>
-
     </div>
+
+    <div class="leituraJanela">
+        <iframe src="" frameborder="0" height="0" width="100%"></iframe>
+    </div>
+    <div class="principalJanela">
+        <img src="./icon.png" onclick="AbrirLeitura('./Livro1.pdf')"/>
+    </div>
+    <script>
+        function AbrirLeitura(endereco) {
+            const campo = document.querySelector("iframe")
+            campo.setAttribute("src", endereco)
+            campo.setAttribute("height", "500px")
+        }
+    </script>
 </body>
 </html>
